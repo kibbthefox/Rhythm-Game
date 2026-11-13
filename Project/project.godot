@@ -14,9 +14,17 @@ config/name="Rhythm Game"
 run/main_scene="uid://7meloxhw6y8d"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
+[autoload]
+
+G="*res://g.gd"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_midi/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
+[physics]
+
+common/physics_ticks_per_second=120
 
 [rendering]
 
